@@ -87,7 +87,7 @@ ORDER BY highest_death DESC
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 -- Global numbers
 
-SELECT date, SUM(cast(new_cases as int)) AS total_cases, SUM(cast(new_deaths as int)) total_death, (SUM(cast(new_deaths as int))/SUM(new_cases))*100 AS death_percentage
+SELECT date, SUM(cast(new_cases as int)) AS total_cases, SUM(cast(new_deaths as int)) total_death, (SUM(cast(new_deaths as int))/SUM(new_cases))*100 AS survival rate
 FROM PortfolioProject..Covid_Cases
 WHERE continent  IS NOT NULL
 group by date
