@@ -4,7 +4,7 @@ The objective of this analysis was to find out the overtime changes in COVID-19 
 
 Here's a link to the visualization dashboard on tableau
 
-https://public.tableau.com/views/Covid19november62021/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/app/profile/ayomide.ogunnola/viz/covid19_16390208420960/Dashboard1
 
 Datasets from Our World in Data, here a link to the public dataset used
 
